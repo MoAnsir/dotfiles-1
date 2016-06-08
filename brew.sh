@@ -2,6 +2,11 @@
 
 # Install command-line tools using Homebrew.
 
+#Maybe this stuff should go here.... Im not sureno
+brew tap caskroom/cask
+brew install brew-cask
+brew tap caskroom/versions
+
 # Make sure we’re using the latest Homebrew.
 brew update
 
@@ -101,6 +106,12 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+
+#Add in my stuff
+brew cask install sublime-text3
+brew cask install iterm2
+brew cask install virtualbox
+brew install node
 
 # Remove outdated versions from the cellar.
 brew cleanup
